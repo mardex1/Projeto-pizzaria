@@ -5,10 +5,96 @@
     <meta charset="UTF-8">
     <title>Contato</title>
     <link rel="icon" href="img/pizza-icon.png" type="img/x-icon">
+
 </head>
 
 <body>
+    <header>
+        <h1>Nos Contate!</h1>
 
+        <ul>
+            <li>
+                <a href="index.html#">Home</a>
+            </li>
+            <li>
+                <a href="index.html#about">Sobre</a>
+            </li>
+            <li>
+                <a href="index.html#menu">Nosso Menu</a>
+            </li>
+            <li>
+                <a href="horario.html#">Quando Estamos Abertos?</a>
+            </li>
+        </ul>
+
+        <figure>
+            <img src="img/pizza-500x324.jpg" alt="Pizza com a família">
+            <figcaption>Pizza para Toda a Família!</figcaption>
+        </figure>
+
+    </header>
+
+    <hr>
+
+    <main>
+        <article id="contato">
+            <h2>Forma de Contato</h2>
+            <form action="https://httpbin/post" method="post">
+                <fieldset>
+                    <legend>Nos Mande uma Mensagem</legend>
+                    <p>
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome" placeholder="seu nome">
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" id="email" placeholder="seu email">
+                    </p>
+                    <p>
+                        <label for="mensagem">Sua mensagem:</label>
+                        <br>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="10"
+                            placeholder="digite sua mensagem aqui"></textarea>
+                    </p>
+
+                </fieldset>
+                <button type="submit" formaction="https://httpbin/post" formmethod="post">Enviar</button>
+                <button type="reset">Reset</button>
+            </form>
+        </article>
+
+        <hr>
+
+        <article id="localizacao">
+            <h2>Nossa Localização</h2>
+            <p>
+                Rua Grande Senhor da Pizza, número 1600
+                <br>Formiga, Minas Gerais
+            </p>
+        </article>
+
+        <hr>
+
+        <article id="entrega">
+            <h2>Também Fazemos Entregas</h2>
+            <p>
+                WhatsApp ou Telefone
+                <br>(37) 12345-6789
+                <br>Nossos motoboys garantem 10 minutos de entrega, independente do local do pedido.
+                <br>Se não chegarem a tempo, seu dinheiro será devolvido.
+            </p>
+
+            <a href="#">De volta ao topo</a>
+        </article>
+
+        <hr>
+
+        <footer>
+            <p>
+                &lt;&lt;&lt;&copy; Pequena Pizzaria do Mardem &gt;&gt;&gt;
+            </p>
+        </footer>
+    </main>
 </body>
 
 </html>
